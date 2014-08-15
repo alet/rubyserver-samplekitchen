@@ -1,0 +1,25 @@
+{
+  "run_list":[ 
+	"recipe[rubyserver]"
+  ],
+  "rubyserver": {
+    "user_password": "$1$Yo6.uzDN$rTdny2zPsz8F2qINMWVxW.",
+    "db_root_password": "welcome!",
+    "databases": {
+      "mysql": [
+        { "username": "app1",
+          "password": "app1",
+          "database_name": "app1_production" }
+      ],
+      "postgresql": [
+        { "username": "app2",
+          "password": "app2",
+          "database_name": "app2_production" }
+      ]
+    },
+    "ruby": {
+      "versions": [ "2.0.0-p451" ],
+      "global_version": "2.0.0-p451"
+    }
+  }
+}

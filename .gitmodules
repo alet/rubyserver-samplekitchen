@@ -1,0 +1,3 @@
+[submodule "site-cookbooks/rubyserver"]
+	path = site-cookbooks/rubyserver
+	url = git@bitbucket.org:alet/rubyserver.git
