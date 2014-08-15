@@ -1,5 +1,6 @@
 ﻿# Настройка сервера
 
+Example of use [rubyserver](https://github.com/alet/rubyserver) cookbook 
 
 ## На рабочей станции 
 
